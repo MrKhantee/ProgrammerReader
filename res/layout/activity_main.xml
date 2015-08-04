@@ -3,36 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.huangtao.itreader.MainActivity" >
+    tools:context="com.huangtao.programmerreader.MainActivity" >
+
 
     <Button
-        android:id="@+id/execute"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/execute" />
-
-    <Button
+        android:onClick="onClick"
         android:id="@+id/startActivity"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/start" />
 
-    <ProgressBar
-        android:id="@+id/progress_bar"
-        style="@android:attr/progressBarStyleHorizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:max="100"
-        android:progress="0" />
-
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
-
-        <ImageView
-            android:id="@+id/image_view"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
-    </ScrollView>
+    
 
 </LinearLayout>

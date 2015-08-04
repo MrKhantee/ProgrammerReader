@@ -47,8 +47,6 @@ public class SlideShowView extends FrameLayout {
 
     private int imageCount;
 
-    private int timeInterval;
-
     private boolean autoPlay;
 
     private int delay;
@@ -329,7 +327,6 @@ public class SlideShowView extends FrameLayout {
         imageUrls = res.getStringArray(R.array.urls);
         imageCount = imageUrls.length;
         String interVal = res.getString(R.string.timeInterval);
-        timeInterval = Integer.parseInt(interVal);
         String autoPlayParameter = res.getString(R.string.autoPlay);
         autoPlay = Boolean.parseBoolean(autoPlayParameter);
         delay = Integer.parseInt(res.getString(R.string.delay));

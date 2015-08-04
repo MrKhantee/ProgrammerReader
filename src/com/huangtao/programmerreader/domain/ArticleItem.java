@@ -31,6 +31,11 @@ public class ArticleItem {
 		this.host = host;
 		this.iconUrl = iconUrl;
 	}
+	
+	public ArticleItem()
+	{
+		
+	}
 	private int articleId;
 	private String title;
 	private String host;

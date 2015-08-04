@@ -31,6 +31,8 @@ public class LoadingActivity extends Activity {
         articleService = ArticleService.getInstance(this);
 
         List<ArticleItem> articleItems = articleService.getAllItem();
+        
+        articleItems.add(0,new ArticleItem());
 
         articleListView.setAdapter(new ArticleListAdapter(this, articleItems));
 

@@ -29,7 +29,7 @@
             android:name=".LoadingActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.STANDARD" />
+                <action android:name="com.huangtao.programmerreader.LoadingActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
